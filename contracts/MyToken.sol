@@ -15,7 +15,7 @@ contract MyToken is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, P
     }
 
     function initialize() initializer public {
-        __ERC20_init("MyToken", "MTK");
+        __ERC20_init("Example Token", "ETN");
         __ERC20Burnable_init();
         __Pausable_init();
         __Ownable_init();
